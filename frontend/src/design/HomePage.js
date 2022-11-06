@@ -7,8 +7,8 @@ function HomePage() {
     //creation de la banniere d'acceuil en "hero" (image/video en plein ecran avec texte)
     <div className='hero-container'>
       <video src='/pictures/video.mp4' autoPlay loop muted />
-      <h1>GALAXAPI</h1>
-      <p>Arthur Gil - Callixte Fusier</p>
+      <h1>WARCRIME</h1>
+      <p>Arthur Gil - Callixte Fusier - Pierre-Erwan Fouillard</p>
     </div>
   );
 }

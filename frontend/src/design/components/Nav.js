@@ -34,7 +34,7 @@ function Nav() {
           }
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <img className='navbar-img' src='/pictures/galaxy.png' alt='Galaxapi Logo'/>
-            GALAXAPI
+            WARCRIME NFT
           </Link>
 
           {//Utilisation de la bibliotheque font awesome pour créer les bars et la croix
@@ -54,24 +54,24 @@ function Nav() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/dashboard' className='nav-links' onClick={closeMobileMenu}>
-                Dashboard
+              <Link to='/NFT' className='nav-links' onClick={closeMobileMenu}>
+                NFT
               </Link>
             </li>
             
             {//Affichage uniquement sur petit écrans (lorqu'on ouvre le menu)
             }
             <li>
-              <Link to='/Api' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Api
+              <Link to='/Account' className='nav-links-mobile' onClick={closeMobileMenu}>
+                Account
               </Link>
             </li>
           </ul>
           
           {//On assigne "API" au button par defaut grace à la balise children ainsi qu'un style de bouton
           }
-          <Link to='/Api' onClick={closeMobileMenu}>
-            {button && <Button buttonStyle='btn--outline'>API</Button>}
+          <Link to='/Account' onClick={closeMobileMenu}>
+            {button && <Button buttonStyle='btn--outline'>Account</Button>}
           </Link>
         </div>
       </nav>

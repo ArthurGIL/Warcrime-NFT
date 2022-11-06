@@ -12,6 +12,7 @@ function Card(props) {
             </figure>
             <div className='card-info'>
                 <h5 className='card-text'>{props.text}</h5>
+                <button>BUY</button>
             </div>
         </Link>
       </li>

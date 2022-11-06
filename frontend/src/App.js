@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Nav from './design/Nav.js';
+import Nav from './design/components/Nav.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './design/pages/Home';
-import Dashboard from './design/pages/Dashboard';
-import Api from './design/pages/Api';
+import NFT from './design/pages/NFT';
+import Account from './design/pages/Account';
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
         <Nav/>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
-          <Route exact path='/dashboard' element={<Dashboard/>}/>
-          <Route exact path='/Api' element={<Api/>}/>
+          <Route exact path='/NFT' element={<NFT/>}/>
+          <Route exact path='/Account' element={<Account/>}/>
         </Routes>
       </Router>
     </>

@@ -1,13 +1,13 @@
 import '../../App.css';
 import React from 'react';
-import ApiPage from '../ApiPage';
+import NFTPage from '../NFTPage';
 
-function Api() {
+function NFT() {
     return (
         <>
-            <ApiPage />
+            <NFTPage />
         </>
     );
 }
 
-export default Api;
+export default NFT;
