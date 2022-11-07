@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Nav.css';
+import Account from '../pages/Account';
 
 function Nav() {
   //Récupere le statut du bouton
@@ -53,26 +54,39 @@ function Nav() {
                 Home
               </Link>
             </li>
+
             <li className='nav-item'>
               <Link to='/NFT' className='nav-links' onClick={closeMobileMenu}>
                 NFT
               </Link>
             </li>
-            
+
             {//Affichage uniquement sur petit écrans (lorqu'on ouvre le menu)
-            }
-            <li>
+              /*
               <Link to='/Account' className='nav-links-mobile' onClick={closeMobileMenu}>
                 Account
               </Link>
+              */
+
+
+            }
+
+            <li className='nav-item'>
+            <Account/>
             </li>
+
           </ul>
           
-          {//On assigne "API" au button par defaut grace à la balise children ainsi qu'un style de bouton
-          }
+          {/*
+          On assigne "API" au boutton par defaut grace à la balise children ainsi qu'un style de bouton
+          
+
           <Link to='/Account' onClick={closeMobileMenu}>
             {button && <Button buttonStyle='btn--outline'>Account</Button>}
           </Link>
+          */}
+          
+
         </div>
       </nav>
   );

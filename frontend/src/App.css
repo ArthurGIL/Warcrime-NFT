@@ -5,6 +5,28 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+.main-app {
+  text-align: center;
+}
+
+.cta-button {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  min-width: 250px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.connect-wallet-button {
+  background: rgb(32, 129, 226);
+}
+
+.mint-nft-button {
+  background: rgba(10, 255, 120, 0.364);
+}
+
 .home,
 .dashboard,
 .api {

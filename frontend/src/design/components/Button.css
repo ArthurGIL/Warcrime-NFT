@@ -24,6 +24,24 @@
   transition: all 0.3s ease-out;
 }
 
+.btn--outline--yes {
+  background-color: transparent;
+  color: rgb(9, 255, 0);
+  padding: 8px 20px;
+  border: 1.5px solid var(--primary);
+  transition: all 0.3s ease-out;
+  padding: 0.5rem 1rem;
+}
+
+.btn--outline--no {
+  background-color: transparent;
+  color: rgb(255, 0, 0);
+  padding: 8px 20px;
+  border: 1.5px solid var(--primary);
+  transition: all 0.3s ease-out;
+  padding: 0.5rem 1rem;
+}
+
 .btn--medium {
   padding: 8px 20px;
   font-size: 18px;
