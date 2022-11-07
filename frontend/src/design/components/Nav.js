@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Nav.css';
-import Account from '../pages/Account';
+import ButtonAccount from './ButtonAccount';
 
 function Nav() {
   //Récupere le statut du bouton
@@ -34,7 +34,7 @@ function Nav() {
           {// Retour Home + fermeture du menu déroulant (si il existe)
           }
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img className='navbar-img' src='/pictures/galaxy.png' alt='Galaxapi Logo'/>
+            <img className='navbar-img' src='/pictures/tank.png' alt='Tank Logo'/>
             WARCRIME NFT
           </Link>
 
@@ -72,19 +72,18 @@ function Nav() {
             }
 
             <li className='nav-item'>
-            <Account/>
+              <div className='nav-links-mobile' onClick={closeMobileMenu}>
+                <ButtonAccount/>
+              </div>
             </li>
 
           </ul>
           
-          {/*
-          On assigne "API" au boutton par defaut grace à la balise children ainsi qu'un style de bouton
-          
 
-          <Link to='/Account' onClick={closeMobileMenu}>
-            {button && <Button buttonStyle='btn--outline'>Account</Button>}
-          </Link>
-          */}
+          <div onClick={closeMobileMenu}>
+            {button && <ButtonAccount buttonStyle='btn--outline'></ButtonAccount>}
+          </div>
+          
           
 
         </div>

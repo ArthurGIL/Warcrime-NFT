@@ -11,6 +11,9 @@ INSTALLER BOOTSTRAP :
 npm i bootstrap
 npm i reactstrap react react-dom
 
+INSTALLER ETHERS :
+npm install ethers
+
 # Frontend
 Tout l'aspect visuel du projet (Pages, NavBar, Composants,...).
 
