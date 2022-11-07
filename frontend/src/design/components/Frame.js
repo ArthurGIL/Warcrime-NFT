@@ -12,9 +12,10 @@ function Frame(props) {
             </figure>
             <div className='frame-info'>
                 <h4 className='frame-text'>{props.text}</h4>
-                <h8 className='frame-subtext'>{props.content1}</h8>
+                <h8 className='frame-subtext'>{props.desc}</h8>
                 <br/>
-                <h8 className='frame-subtext'>{props.content2}</h8>
+                <button>Buy NFT : {props.price}</button>
+                {/*Il faut créer un nouveau component BoutonBuy qui va utiliser le smart contrat pour le virement*/}
             </div>
         </Link>
       </li>
