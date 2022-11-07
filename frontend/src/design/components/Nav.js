@@ -61,30 +61,18 @@ function Nav() {
               </Link>
             </li>
 
-            {//Affichage uniquement sur petit écrans (lorqu'on ouvre le menu)
-              /*
-              <Link to='/Account' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Account
-              </Link>
-              */
-
-
-            }
-
+            {/*Uniquement en format mobile*/}
             <li className='nav-item'>
               <div className='nav-links-mobile' onClick={closeMobileMenu}>
                 <ButtonAccount/>
               </div>
             </li>
-
           </ul>
           
-
+          {/*Bouton de connexion à MetaMask*/}
           <div onClick={closeMobileMenu}>
             {button && <ButtonAccount buttonStyle='btn--outline'></ButtonAccount>}
           </div>
-          
-          
 
         </div>
       </nav>
