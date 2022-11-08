@@ -23,6 +23,12 @@ npm install solidity
 INSTALLER HARDHAT :
 npm install --save-dev hardhat@2.8.4
 
+INSTALLER IPFS :
+npm install ipfs-http-client@56.0.1
+
+INSTALLER OPENZEPPELIN CONTRACTS LIBRARY :
+npm i @openzeppelin/contracts@4.5.0
+
 # Frontend
 Tout l'aspect visuel du projet (Pages, NavBar, Composants,...).
 
