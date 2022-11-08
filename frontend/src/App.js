@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import Nav from './design/components/Nav.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -7,6 +7,7 @@ import NFT from './design/pages/NFT';
 import Account from './design/pages/Account';
 
 function App() {
+
   return (
     <>
       <Router>
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/Account' element={<Account/>}/>
         </Routes>
       </Router>
+
     </>
   );
 }
