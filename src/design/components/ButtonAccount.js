@@ -93,7 +93,7 @@ function Account() {
     return (
       <Link to='/Account'>
         <Button onClick={conNftHandler} buttonStyle='btn--outline'>
-          Connected
+          Account
         </Button>
       </Link>
     )
