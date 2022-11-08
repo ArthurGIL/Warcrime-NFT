@@ -57,8 +57,7 @@ function Account() {
   const conNftHandler = async () => {
     try {
       const { ethereum } = window;
-      /*
-            ---------------------------------   
+      
       if (ethereum) {
         const provider = new ethers.providers.Web3Provider(ethereum);
         const signer = provider.getSigner();
@@ -74,7 +73,7 @@ function Account() {
 
       } else {
         console.log("Ethereum object does not exist");
-      }*/
+      }
 
     } catch (err) {
       console.log(err);
