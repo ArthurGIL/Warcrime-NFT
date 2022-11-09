@@ -1,50 +1,62 @@
-#**Galerie d'art virtuel**
+# **Galerie d'art virtuel**
 
+## Groupe
+> Callixte FUSIER
 
-##Description
+> Arthure GIL
+
+> Pierre-Erwan FOUILLARD
+
+## Description
 Ce projet sert à dénoncer les théatres de guerres dans le monde.
 A travers des dessins uniques garanti par des smarts contracts.
 
 
-##L'importance de la blockchain
+## L'importance de la blockchain
 La blockchain nous permet certifier l'ownership puisque c'est de l'art.
 Personnes ne peut donc voler ce travail.
 Notre site utilise des call API pour afficher les oeuvres de notre artiste.
 
 
-##Instruction de lancement
+## Instruction de lancement
 REACT :
-cd frontend
-npm i
-npm start
+> cd frontend
+
+> npm i
+
+> npm start
 
 INSTALLER REACT ROUTER :
-npm install react-router-dom
-npm install --save react-router react-router-dom
+> npm install react-router-dom
+
+>npm install --save react-router react-router-dom
+
 
 INSTALLER BOOTSTRAP :
-npm i bootstrap
-npm install react-bootstrap
-npm i reactstrap react react-dom
+> npm i bootstrap
+
+> npm install react-bootstrap
+
+> npm i reactstrap react react-dom
 
 INSTALLER ETHERS :
-npm install ethers
+> npm install ethers
 
 INSTALLER WEB3 :
-npm install web3
+> npm install web3
 
 INSTALLER SOLIDITY + EXTENSION SOLIDITY VSCODE :
-npm install solidity
+> npm install solidity
 
 INSTALLER HARDHAT :
-npm install --save-dev hardhat@2.8.4
+> npm install --save-dev hardhat@2.8.4
 
 INSTALLER IPFS :
-npm install ipfs-http-client@56.0.1
+> npm install ipfs-http-client@56.0.1
 
 INSTALLER OPENZEPPELIN CONTRACTS LIBRARY :
-npm i @openzeppelin/contracts@4.5.0
+> npm i @openzeppelin/contracts@4.5.0
 
-##Autre
+## Autre
 Backend
 Toute la partie de création de compte et liaison avec MetaMask.
