@@ -1,3 +1,18 @@
+#**Galerie d'art virtuel**
+
+
+##Description
+Ce projet sert à dénoncer les théatres de guerres dans le monde.
+A travers des dessins uniques garanti par des smarts contracts.
+
+
+##L'importance de la blockchain
+La blockchain nous permet certifier l'ownership puisque c'est de l'art.
+Personnes ne peut donc voler ce travail.
+Notre site utilise des call API pour afficher les oeuvres de notre artiste.
+
+
+##Instruction de lancement
 REACT :
 cd frontend
 npm i
@@ -30,8 +45,6 @@ npm install ipfs-http-client@56.0.1
 INSTALLER OPENZEPPELIN CONTRACTS LIBRARY :
 npm i @openzeppelin/contracts@4.5.0
 
-# Frontend
-Tout l'aspect visuel du projet (Pages, NavBar, Composants,...).
-
-## Backend
+##Autre
+Backend
 Toute la partie de création de compte et liaison avec MetaMask.
