@@ -1,4 +1,4 @@
-# **Galerie d'art virtuel**
+# **Galerie d'art virtuelle**
 
 ## Groupe
 > Callixte FUSIER
@@ -8,55 +8,27 @@
 > Pierre-Erwan FOUILLARD
 
 ## Description
-Ce projet sert à dénoncer les théatres de guerres dans le monde.
-A travers des dessins uniques garanti par des smarts contracts.
+Notre projet est une gallerie d'art NFT centrée sur le thème de la guerre. On y retrouve des images historiques modifiées grâce à une intelligence artificielle. Chaque image est un NFT unique avec les dates des coflits.
 
 
 ## L'importance de la blockchain
-La blockchain nous permet certifier l'ownership puisque c'est de l'art.
-Personnes ne peut donc voler ce travail.
-Notre site utilise des call API pour afficher les oeuvres de notre artiste.
+Dans ce projet, la blockchain nous permet certifier l'ownership de chaque image afin que le créateur soit connu et que les oeuvres d'art ne puisse être usurpées.
 
 
 ## Instruction de lancement
-REACT :
-> cd frontend
-
-> npm i
-
-> npm start
-
 INSTALLER REACT ROUTER :
 > npm install react-router-dom
 
 >npm install --save react-router react-router-dom
 
 
-INSTALLER BOOTSTRAP :
-> npm i bootstrap
-
-> npm install react-bootstrap
-
-> npm i reactstrap react react-dom
-
-INSTALLER ETHERS :
-> npm install ethers
-
 INSTALLER WEB3 :
 > npm install web3
 
-INSTALLER SOLIDITY + EXTENSION SOLIDITY VSCODE :
-> npm install solidity
 
-INSTALLER HARDHAT :
-> npm install --save-dev hardhat@2.8.4
+REACT :
+> cd frontend
 
-INSTALLER IPFS :
-> npm install ipfs-http-client@56.0.1
+> npm i
 
-INSTALLER OPENZEPPELIN CONTRACTS LIBRARY :
-> npm i @openzeppelin/contracts@4.5.0
-
-## Autre
-Backend
-Toute la partie de création de compte et liaison avec MetaMask.
+> npm start

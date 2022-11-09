@@ -20,7 +20,7 @@ class API_2 extends Component {
 
     render() {
         return (
-            <Frame src={this.state.post.image_url} text={this.state.post.name} desc={this.state.post.description} label={this.state.post.label} path='/NFT'/>
+            <Frame src={this.state.post.image_url} text={this.state.post.name} desc={this.state.post.description} label="Collection WARCRIME" path='/NFT'/>
         );
     }
 }
