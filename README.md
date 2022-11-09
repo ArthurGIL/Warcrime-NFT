@@ -8,7 +8,8 @@
 > Pierre-Erwan FOUILLARD
 
 ## Description
-Notre projet est une gallerie d'art NFT centrée sur le thème de la guerre. On y retrouve des images historiques modifiées grâce à une intelligence artificielle. Chaque image est un NFT unique avec les dates des coflits.
+Notre projet est une gallerie d'art NFT centrée sur le thème de la guerre. On y retrouve des images historiques modifiées grâce à une intelligence artificielle. Chaque image est un NFT unique avec les dates des coflits récupéré par API depuis Opensea.
+Il est aussi possible de se connecter avec son compte MétaMask avec le bouton "Connexion".
 
 
 ## L'importance de la blockchain
@@ -32,3 +33,6 @@ REACT :
 > npm i
 
 > npm start
+
+
+Le Contrat.sol est dans le dossier "contracts"
