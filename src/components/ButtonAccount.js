@@ -3,7 +3,6 @@ import '../App.css';
 
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
-import { Link } from 'react-router-dom';
 import '../components/Nav.css';
 import '../components/Button.css';
 
@@ -92,11 +91,9 @@ function Account() {
 
   const conNftButton = () => {
     return (
-      <Link to='/Account'>
-        <Button onClick={conNftHandler} buttonStyle='btn--outline'>
-          Account
-        </Button>
-      </Link>
+      <Button onClick={conNftHandler} buttonStyle='btn--outline'>
+        Account
+      </Button>
     )
   }
 

@@ -1,6 +1,7 @@
 {
     "name": "Afghanistan",
-    "description": "La guerre",
+    "description": "October 7, 2001 – August 30, 2021",
+    "label": "Collection WARCRIME",
     "fee_recipient": "0xd23e8525548bC55C2E81c78f505f7147E0B4265E",
     "image": "https://ipfs.io/ipfs/QmSrui5nrx1P3T8KgzjFsQ18boZwYTrX5giKYUpd2HmFVC/1.jpg"
 }
