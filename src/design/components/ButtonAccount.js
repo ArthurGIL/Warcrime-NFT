@@ -11,7 +11,7 @@ import abi from '../../contracts/ABI.json';
 import { ethers } from 'ethers';
 
 
-const contractAddress = "0xd1954846d3b257fed1f2dbb92da06339683615ad";
+const contractAddress = "0xd23e8525548bC55C2E81c78f505f7147E0B4265E";
 
 function Account() {
 
