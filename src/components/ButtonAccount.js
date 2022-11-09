@@ -1,4 +1,4 @@
-import '../../App.css';
+import '../App.css';
 //import AccountPage from '../AccountPage';
 
 import React, { useState, useEffect } from 'react';
@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import '../components/Nav.css';
 import '../components/Button.css';
 
-import abi from '../../contracts/ABI.json';
+import abi from '../contracts/ABI.json';
 import { ethers } from 'ethers';
 
 
@@ -55,7 +55,7 @@ function Account() {
   }
 
   const conNftHandler = async () => {
-    try {
+    /*try {
       const { ethereum } = window;
       
       if (ethereum) {
@@ -77,9 +77,10 @@ function Account() {
 
     } catch (err) {
       console.log(err);
-    }
+    }*/
     console.log("Connected");
   }
+  
 
   const connectWalletButton = () => {
     return (
@@ -113,7 +114,3 @@ function Account() {
 }
 
 export default Account;
-
-
-
-

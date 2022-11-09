@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Frame from '../design/components/Frame';
+import Frame from '../components/Frame';
 
 class Afghanistan extends Component {
 
@@ -7,7 +7,7 @@ class Afghanistan extends Component {
 
     render() {
         return (
-            <Frame src='/pictures/Afghanistan.jpg' text='La Guerre' desc={"Description de la guerre"} price={"0.05 GöETH"} label='Guerre' path='/NFT'/>
+            <Frame src='/pictures/images/1.jpg' text='La Guerre' desc={"Description de la guerre"} price={"0.05 GöETH"} label='Guerre' path='/NFT'/>
         );
     }
 }

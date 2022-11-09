@@ -9,6 +9,7 @@ npm install --save react-router react-router-dom
 
 INSTALLER BOOTSTRAP :
 npm i bootstrap
+npm install react-bootstrap
 npm i reactstrap react react-dom
 
 INSTALLER ETHERS :
